@@ -1,0 +1,13 @@
+img {
+    width: 70px;
+}
+
+td {
+    color: black;
+    padding-top: 20;
+    padding-left: 30;
+}
+
+.total {
+    border: 1px dotted black;
+}
