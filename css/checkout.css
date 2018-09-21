@@ -26,8 +26,8 @@ hr {
 a,
 ul {
     text-decoration: none;
-    margin-top: 0;
-    padding-left: 10;
+    margin-top: -30;
+    padding-left: -10;
     display: block;
     color: #f59a23;
 }
