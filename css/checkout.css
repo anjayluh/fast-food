@@ -1,0 +1,61 @@
+img {
+    width: 100px;
+}
+
+.total {
+    color: black;
+    padding-top: 14px;
+}
+
+hr {
+    width: 250;
+}
+
+.btn1 {
+    font-family: "Arial";
+    color: #f59a23;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #5a2901;
+    background: rgb(252, 249, 248);
+    padding: 11px 20px;
+    width: 200px;
+}
+
+a,
+ul {
+    text-decoration: none;
+    margin-top: -30;
+    padding-left: -10;
+    display: block;
+    color: #f59a23;
+}
+
+.button {
+    /** Font Style **/
+    font-family: "Helvetica, Arial";
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    /** Button Style **/
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: auto;
+    zoom: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #5a2901;
+    background: rgb(121, 67, 36);
+    padding: 11px 20px;
+    border-radius: 3px;
+}
+
+.button:active {
+    border-color: #f35107;
+    -webkit-box-shadow: rgba(77, 41, 1, 0.2) 0 1px 0, inset rgba(207, 64, 7, 0.25) 0 1px 4px;
+    -moz-box-shadow: rgba(233, 115, 5, 0.2) 0 1px 0, inset rgba(252, 8, 8, 0.25) 0 1px 4px;
+    box-shadow: rgba(248, 2, 2, 0.2) 0 1px 0, inset rgba(247, 12, 12, 0.25) 0 1px 4px;
+}
