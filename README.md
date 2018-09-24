@@ -1,1 +1,1 @@
-The web app is running https://anjayluh.github.io/fast-food/.
+The web app is running on https://anjayluh.github.io/fast-food/.
