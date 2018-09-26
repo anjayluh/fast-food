@@ -6,6 +6,7 @@ hr {
     display: none;
 }
 
+.submit,
 .button {
     /** Font Style **/
     font-family: "Helvetica, Arial";

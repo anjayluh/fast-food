@@ -6,12 +6,14 @@
     </title>
     <script>
         //Display sign up form on click
-        function sform(a) {
-            if (a == 1)
-                document.getElementById("signup").style.display = "block";
+        function sform() {
+            document.getElementById("signup").style.display = "block";
             document.getElementById("login").style.display = "none";
-            document.getElementById("login1").style.display = "none";
-            document.getElementById("login2").style.display = "none";
+        }
+
+        function lform() {
+            document.getElementById("login").style.display = "block";
+            document.getElementById("signup").style.display = "none";
         }
     </script>
     <link href="../css/index.css" type="text/css" rel="stylesheet">
@@ -39,8 +41,8 @@
     <div class="Container" id="signin">
         <center>
             <h1 id="login">Please sign in here...</h1>
-            <hr id="login1">
-            <form id="login2">
+            <hr id="login">
+            <form id="login" action="checkout.html">
                 <label>
                     <b>Email</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </label>&nbsp;<input type="email">
@@ -49,11 +51,12 @@
                     <b>Password</b>
                 </label> &nbsp; <input type="password">
                 <p/>
-                <a href="./myorders.html">
-                    <button class="button">Sign in</button>
+                <label>
+                <a href="checkout.html">
+                    <input type="submit" class="submit">
                 </a>
                 <p/>
-                <a href="#signup" onclick="sform(1)" id="slink" style="padding-top:20px; padding-left: 1;">
+                <a href="#signup" onclick="sform()" id="slink" style="padding-top:20px; padding-left: 1;">
                     Don't have an account?
                 </a>
             </form>
@@ -65,33 +68,33 @@
                         <label>
                             <b>First Name</b>
                         </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text">
-                        <p/>
-                        <label>
+                <input type="text">
+                <p/>
+                <label>
                             <b>Last Name</b>
                         </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text">
-                        <p/>
-                        <label>
+                <input type="text">
+                <p/>
+                <label>
                             <b>Email</b>
                         </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="email">
-                        <p/>
-                        <label>
+                <input type="email">
+                <p/>
+                <label>
                             <b>Password</b>
                         </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="password">
-                        <p/>
-                        <label>
+                <input type="password">
+                <p/>
+                <label>
                             <b>Repeat Password</b>
                         </label>&nbsp;<input type="password">
-                        <p/>
-                        <a href="./myorders.html">
-                            <button class="button">Sign in</button>
-                        </a>
-                    </form>
-            </div>
-            </center>
+                <p/>
+                <a href="#login" onclick="lform()">
+                    <button class="button">Sign up</button>
+                </a>
+            </form>
+    </div>
+    </center>
     </div>
 </body>
 

@@ -1,4 +1,7 @@
-.header {
-    margin-top: -40;
+    .header {
+    margin-top: 40;
     padding-left: -10;
 }
+
+.status {
+    padding-left: 60px;
